@@ -59,3 +59,23 @@ const playerScore = document.querySelector(".score.player");
 const computerScore = document.querySelector(".score.computer");
 
 const result = document.querySelector("#result");
+
+const github = document.querySelector("#github");
+github.addEventListener('click', function () {
+    window.open("https://github.com/brunettisergio", "_blank")
+});
+
+const linkedin = document.querySelector("#linkedin");
+linkedin.addEventListener('click', function () {
+    window.open("https://www.linkedin.com/in/brunettisergio/", "_blank")
+});
+
+const instagram = document.querySelector("#instagram");
+instagram.addEventListener('click', function () {
+    window.open("https://www.instagram.com/brunettisergio/", "_blank")
+});
+
+const twitter = document.querySelector("#twitter");
+twitter.addEventListener('click', function () {
+    window.open("https://twitter.com/brunettisergio", "_blank")
+});
