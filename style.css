@@ -8,6 +8,11 @@ body {
     color: white;
 }
 
+button {
+    width: 6.5%;
+    height: auto;
+}
+
 #header {
     flex-direction: column;
     display: flex;
@@ -51,18 +56,30 @@ body {
     font-size: 60%;
     margin: 0%;
     padding: 0%;
+    padding-bottom: 3%;
+}
+
+.images {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    gap: 10%;
 }
 
 .buttons {
     flex-direction: row;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0%;
-    padding: 2% 35% 0% 35%;
+    padding: 0%;
+    padding-top: 3%;
+    gap: 15%;
 }
 
 #rock, #paper, #scissors {
-    width: 25%;
+    width: 10%;
     height: auto;
 }
 
