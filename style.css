@@ -1,0 +1,91 @@
+body {
+    flex-direction: column;
+    display: flex;
+    margin: 0px;
+    min-height: 100vh;
+    background-color: #282C34;
+    font-family: sans-serif;
+    color: white;
+}
+
+#header {
+    flex-direction: column;
+    display: flex;
+    margin: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #3e85a1;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    margin: 0%;
+    padding: 0%;
+    font-size: 320%;
+}
+
+#game-info {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-size: 300%;
+    padding-top: 5%;
+}
+
+.players {
+    margin: 0%;
+    padding: 1% 0% 0% 0%;
+}
+
+#score {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding: 0% 0.5% 0% 0%;
+    gap: 800%;
+}
+
+#result {
+    font-size: 60%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.buttons {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    margin: 0%;
+    padding: 2% 35% 0% 35%;
+}
+
+#rock, #paper, #scissors {
+    width: 25%;
+    height: auto;
+}
+
+#footer {
+    flex-direction: column;
+    display: flex;
+    margin: 0%;
+    margin-top: auto;
+    padding: 0%;
+    background-color: rgb(22, 22, 22);
+}
+
+.footer.content {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+    gap: 1%;
+}
+
+#github, #linkedin, #instagram, #twitter {
+    width: 1%;
+    height: auto;
+}

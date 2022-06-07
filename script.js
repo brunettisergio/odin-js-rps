@@ -32,8 +32,8 @@ function playRound(playerSelection) {
     } else { 
         result.textContent = "Computer wins!";
     }
-    scoreboard.textContent =
-        "Player " + playerWins + " - " + computerWins + " Computer";
+    playerScore.textContent = playerWins;
+    computerScore.textContent = computerWins;
 }
 
 function computerPlay() {
@@ -55,6 +55,7 @@ scissors.addEventListener('click', function () {
     playRound(3)
 });
 
-const scoreboard = document.querySelector("#scoreboard");
+const playerScore = document.querySelector(".score.player");
+const computerScore = document.querySelector(".score.computer");
 
 const result = document.querySelector("#result");
